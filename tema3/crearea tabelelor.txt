@@ -1,0 +1,13 @@
+CREATE TABLE `warehouse`.`client` (
+  `nameC` VARCHAR(45) NULL,
+  `address` VARCHAR(45) NULL);
+
+CREATE TABLE `warehouse`.`product` (
+  `nameP` VARCHAR(45) NULL,
+  `quantity` INT NULL,
+  `price` DOUBLE NULL);
+
+CREATE TABLE `warehouse`.`orders` (
+  `nameC` VARCHAR(45) NULL,
+  `nameP` VARCHAR(45) NULL,
+  `quantity` VARCHAR(45) NULL);
